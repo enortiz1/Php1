@@ -1,3 +1,11 @@
+<?php
+
+$name = "Eric Ortiz";
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,12 +27,12 @@
         <img src="https://ui-avatars.com/api/?name=Eric+Ortiz&size=255" alt="" id="profile-picture">
       </div>
       <div class="col">
-        <h1><?php echo 'Eric Ortiz'; ?></h1>
+        <h1><?php echo $name; ?></h1>
         <h2>PHP Developer</h2>
         <ul>
           <li>Mail: ortiz.ericnicolas@gmail.com</li>
           <li>Phone: +541126492506</li>
-          <li>Linkedin: https://linkedin.com/eric_nortiz</li>
+          <li>Linkedin: <link>https://linkedin.com/eric_nortiz</link></li>
           <li>Twitter: @eric_nortiz</li>
         </ul>
       </div>
